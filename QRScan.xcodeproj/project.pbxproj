@@ -7,15 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC431663280AB44900553E11 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC431662280AB44900553E11 /* UserModel.swift */; };
+		EC500617280AE1F1000DF8A7 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC500616280AE1F1000DF8A7 /* UserViewModel.swift */; };
+		EC50061B280AE647000DF8A7 /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50061A280AE647000DF8A7 /* ReuseIdentifiable.swift */; };
+		EC50061D280AE677000DF8A7 /* UIView+ Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50061C280AE677000DF8A7 /* UIView+ Extension.swift */; };
+		EC50061F280AE9EA000DF8A7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50061E280AE9EA000DF8A7 /* Date+Extension.swift */; };
+		EC500624280AF4A8000DF8A7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC500623280AF4A8000DF8A7 /* Home.storyboard */; };
+		EC500626280AF4C1000DF8A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC500625280AF4C1000DF8A7 /* HomeViewController.swift */; };
+		EC500629280B08A2000DF8A7 /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC500628280B08A2000DF8A7 /* FileManager+Extension.swift */; };
+		EC50062B280B094E000DF8A7 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50062A280B094E000DF8A7 /* Constant.swift */; };
+		EC50062F280B15FB000DF8A7 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50062E280B15FB000DF8A7 /* LoginViewModel.swift */; };
+		EC500633280B1A65000DF8A7 /* QRScannedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC500632280B1A65000DF8A7 /* QRScannedViewController.swift */; };
+		EC500635280B1A90000DF8A7 /* QRScannedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC500634280B1A90000DF8A7 /* QRScannedViewModel.swift */; };
+		EC500638280B1ACA000DF8A7 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC500637280B1ACA000DF8A7 /* TextFieldTableViewCell.swift */; };
+		EC50063A280B1B79000DF8A7 /* RequiredDefaultTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC500639280B1B79000DF8A7 /* RequiredDefaultTextField.swift */; };
+		EC50063C280B1C5D000DF8A7 /* QRScannedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC50063B280B1C5D000DF8A7 /* QRScannedModel.swift */; };
+		ECB84843280BA07000E08407 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB84842280BA07000E08407 /* ScanViewController.swift */; };
+		ECB84845280BB0E600E08407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB84844280BB0E600E08407 /* LaunchScreen.storyboard */; };
+		ECB84847280BBF4B00E08407 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB84846280BBF4B00E08407 /* FontExtension.swift */; };
+		ECD586B4280B272500FCB9D4 /* Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD586B3280B272500FCB9D4 /* Validators.swift */; };
+		ECD586B7280B2C5100FCB9D4 /* QRHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD586B6280B2C5100FCB9D4 /* QRHistoryViewController.swift */; };
+		ECD586BA280B2CEB00FCB9D4 /* QRHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD586B9280B2CEB00FCB9D4 /* QRHistoryTableViewCell.swift */; };
+		ECD586BC280B2E0A00FCB9D4 /* QRHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD586BB280B2E0A00FCB9D4 /* QRHistoryViewModel.swift */; };
 		ECDD76C32809228400044846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD76C22809228400044846 /* AppDelegate.swift */; };
 		ECDD76C52809228400044846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD76C42809228400044846 /* SceneDelegate.swift */; };
-		ECDD76C72809228400044846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD76C62809228400044846 /* ViewController.swift */; };
-		ECDD76CA2809228400044846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDD76C82809228400044846 /* Main.storyboard */; };
 		ECDD76CC2809228800044846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDD76CB2809228800044846 /* Assets.xcassets */; };
-		ECDD76CF2809228800044846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDD76CD2809228800044846 /* LaunchScreen.storyboard */; };
 		ECDD76DA2809228800044846 /* QRScanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD76D92809228800044846 /* QRScanTests.swift */; };
 		ECDD76E42809228900044846 /* QRScanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD76E32809228900044846 /* QRScanUITests.swift */; };
 		ECDD76E62809228900044846 /* QRScanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD76E52809228900044846 /* QRScanUITestsLaunchTests.swift */; };
+		ECDD76F82809261A00044846 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD76F62809261A00044846 /* LoginViewController.swift */; };
+		ECDD76F92809261A00044846 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDD76F72809261A00044846 /* LoginViewController.xib */; };
+		ECDD76FC2809299300044846 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD76FB2809299300044846 /* UIViewController+Extension.swift */; };
+		ECDD76FF28092DC200044846 /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = ECDD76FE28092DC200044846 /* User.json */; };
+		ECDD77032809356B00044846 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD77012809356B00044846 /* UsersViewController.swift */; };
+		ECDD77042809356B00044846 /* UsersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDD77022809356B00044846 /* UsersViewController.xib */; };
+		ECDD77082809362200044846 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDD77062809362200044846 /* UserTableViewCell.swift */; };
+		ECDD77092809362200044846 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECDD77072809362200044846 /* UserTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +63,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC431662280AB44900553E11 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EC500616280AE1F1000DF8A7 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		EC50061A280AE647000DF8A7 /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		EC50061C280AE677000DF8A7 /* UIView+ Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ Extension.swift"; sourceTree = "<group>"; };
+		EC50061E280AE9EA000DF8A7 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		EC500623280AF4A8000DF8A7 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		EC500625280AF4C1000DF8A7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC500628280B08A2000DF8A7 /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		EC50062A280B094E000DF8A7 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		EC50062E280B15FB000DF8A7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EC500632280B1A65000DF8A7 /* QRScannedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannedViewController.swift; sourceTree = "<group>"; };
+		EC500634280B1A90000DF8A7 /* QRScannedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannedViewModel.swift; sourceTree = "<group>"; };
+		EC500637280B1ACA000DF8A7 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		EC500639280B1B79000DF8A7 /* RequiredDefaultTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredDefaultTextField.swift; sourceTree = "<group>"; };
+		EC50063B280B1C5D000DF8A7 /* QRScannedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannedModel.swift; sourceTree = "<group>"; };
+		EC97355D280BE1370052C05F /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		ECB84842280BA07000E08407 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		ECB84844280BB0E600E08407 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB84846280BBF4B00E08407 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		ECD586B3280B272500FCB9D4 /* Validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validators.swift; sourceTree = "<group>"; };
+		ECD586B6280B2C5100FCB9D4 /* QRHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRHistoryViewController.swift; sourceTree = "<group>"; };
+		ECD586B9280B2CEB00FCB9D4 /* QRHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		ECD586BB280B2E0A00FCB9D4 /* QRHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRHistoryViewModel.swift; sourceTree = "<group>"; };
 		ECDD76BF2809228400044846 /* QRScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDD76C22809228400044846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECDD76C42809228400044846 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECDD76C62809228400044846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ECDD76C92809228400044846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECDD76CB2809228800044846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ECDD76CE2809228800044846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECDD76D02809228800044846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECDD76D52809228800044846 /* QRScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDD76D92809228800044846 /* QRScanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanTests.swift; sourceTree = "<group>"; };
 		ECDD76DF2809228900044846 /* QRScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECDD76E32809228900044846 /* QRScanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanUITests.swift; sourceTree = "<group>"; };
 		ECDD76E52809228900044846 /* QRScanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECDD76F62809261A00044846 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ECDD76F72809261A00044846 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		ECDD76FB2809299300044846 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		ECDD76FE28092DC200044846 /* User.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
+		ECDD77012809356B00044846 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		ECDD77022809356B00044846 /* UsersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersViewController.xib; sourceTree = "<group>"; };
+		ECDD77062809362200044846 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		ECDD77072809362200044846 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +131,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC500619280AE621000DF8A7 /* Utilities+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD76FB2809299300044846 /* UIViewController+Extension.swift */,
+				EC50061A280AE647000DF8A7 /* ReuseIdentifiable.swift */,
+				EC50061C280AE677000DF8A7 /* UIView+ Extension.swift */,
+				EC50061E280AE9EA000DF8A7 /* Date+Extension.swift */,
+				EC500628280B08A2000DF8A7 /* FileManager+Extension.swift */,
+				EC50062A280B094E000DF8A7 /* Constant.swift */,
+				EC500639280B1B79000DF8A7 /* RequiredDefaultTextField.swift */,
+				ECD586B3280B272500FCB9D4 /* Validators.swift */,
+				ECB84846280BBF4B00E08407 /* FontExtension.swift */,
+			);
+			path = "Utilities+Extension";
+			sourceTree = "<group>";
+		};
+		EC500622280AF499000DF8A7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ECB84848280BDB4700E08407 /* Scan */,
+				ECD586B5280B2C2500FCB9D4 /* QRHistory */,
+				EC500631280B1A44000DF8A7 /* QRScanned */,
+				EC500630280B1A3E000DF8A7 /* Home */,
+				EC500623280AF4A8000DF8A7 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC500630280B1A3E000DF8A7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC500625280AF4C1000DF8A7 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC500631280B1A44000DF8A7 /* QRScanned */ = {
+			isa = PBXGroup;
+			children = (
+				EC500636280B1AAC000DF8A7 /* View */,
+				EC500632280B1A65000DF8A7 /* QRScannedViewController.swift */,
+				EC500634280B1A90000DF8A7 /* QRScannedViewModel.swift */,
+				EC50063B280B1C5D000DF8A7 /* QRScannedModel.swift */,
+			);
+			path = QRScanned;
+			sourceTree = "<group>";
+		};
+		EC500636280B1AAC000DF8A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC500637280B1ACA000DF8A7 /* TextFieldTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECB84848280BDB4700E08407 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				ECB84842280BA07000E08407 /* ScanViewController.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		ECD586B5280B2C2500FCB9D4 /* QRHistory */ = {
+			isa = PBXGroup;
+			children = (
+				ECD586B8280B2CCE00FCB9D4 /* View */,
+				ECD586B6280B2C5100FCB9D4 /* QRHistoryViewController.swift */,
+				ECD586BB280B2E0A00FCB9D4 /* QRHistoryViewModel.swift */,
+			);
+			path = QRHistory;
+			sourceTree = "<group>";
+		};
+		ECD586B8280B2CCE00FCB9D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECD586B9280B2CEB00FCB9D4 /* QRHistoryTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		ECDD76B62809228400044846 = {
 			isa = PBXGroup;
 			children = (
+				EC97355D280BE1370052C05F /* Readme.md */,
 				ECDD76C12809228400044846 /* QRScan */,
 				ECDD76D82809228800044846 /* QRScanTests */,
 				ECDD76E22809228900044846 /* QRScanUITests */,
@@ -99,13 +236,11 @@
 		ECDD76C12809228400044846 /* QRScan */ = {
 			isa = PBXGroup;
 			children = (
+				EC500619280AE621000DF8A7 /* Utilities+Extension */,
+				ECDD76FD28092D8900044846 /* Resources */,
+				ECDD76F22809258D00044846 /* Source */,
 				ECDD76C22809228400044846 /* AppDelegate.swift */,
 				ECDD76C42809228400044846 /* SceneDelegate.swift */,
-				ECDD76C62809228400044846 /* ViewController.swift */,
-				ECDD76C82809228400044846 /* Main.storyboard */,
-				ECDD76CB2809228800044846 /* Assets.xcassets */,
-				ECDD76CD2809228800044846 /* LaunchScreen.storyboard */,
-				ECDD76D02809228800044846 /* Info.plist */,
 			);
 			path = QRScan;
 			sourceTree = "<group>";
@@ -125,6 +260,58 @@
 				ECDD76E52809228900044846 /* QRScanUITestsLaunchTests.swift */,
 			);
 			path = QRScanUITests;
+			sourceTree = "<group>";
+		};
+		ECDD76F22809258D00044846 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EC500622280AF499000DF8A7 /* Home */,
+				ECDD77002809355700044846 /* Users */,
+				ECDD76F3280925DE00044846 /* Login */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		ECDD76F3280925DE00044846 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD76F62809261A00044846 /* LoginViewController.swift */,
+				ECDD76F72809261A00044846 /* LoginViewController.xib */,
+				EC50062E280B15FB000DF8A7 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		ECDD76FD28092D8900044846 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD76FE28092DC200044846 /* User.json */,
+				ECDD76CB2809228800044846 /* Assets.xcassets */,
+				ECDD76D02809228800044846 /* Info.plist */,
+				ECB84844280BB0E600E08407 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECDD77002809355700044846 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD77052809360E00044846 /* View */,
+				ECDD77012809356B00044846 /* UsersViewController.swift */,
+				ECDD77022809356B00044846 /* UsersViewController.xib */,
+				EC431662280AB44900553E11 /* UserModel.swift */,
+				EC500616280AE1F1000DF8A7 /* UserViewModel.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		ECDD77052809360E00044846 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD77062809362200044846 /* UserTableViewCell.swift */,
+				ECDD77072809362200044846 /* UserTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +418,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECDD76CF2809228800044846 /* LaunchScreen.storyboard in Resources */,
+				EC500624280AF4A8000DF8A7 /* Home.storyboard in Resources */,
+				ECDD77042809356B00044846 /* UsersViewController.xib in Resources */,
+				ECDD76FF28092DC200044846 /* User.json in Resources */,
 				ECDD76CC2809228800044846 /* Assets.xcassets in Resources */,
-				ECDD76CA2809228400044846 /* Main.storyboard in Resources */,
+				ECB84845280BB0E600E08407 /* LaunchScreen.storyboard in Resources */,
+				ECDD77092809362200044846 /* UserTableViewCell.xib in Resources */,
+				ECDD76F92809261A00044846 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +449,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECDD76C72809228400044846 /* ViewController.swift in Sources */,
+				ECDD76FC2809299300044846 /* UIViewController+Extension.swift in Sources */,
+				EC50061F280AE9EA000DF8A7 /* Date+Extension.swift in Sources */,
+				EC500617280AE1F1000DF8A7 /* UserViewModel.swift in Sources */,
+				EC50061D280AE677000DF8A7 /* UIView+ Extension.swift in Sources */,
+				EC431663280AB44900553E11 /* UserModel.swift in Sources */,
+				ECDD76F82809261A00044846 /* LoginViewController.swift in Sources */,
+				EC500633280B1A65000DF8A7 /* QRScannedViewController.swift in Sources */,
+				EC500635280B1A90000DF8A7 /* QRScannedViewModel.swift in Sources */,
+				ECD586B4280B272500FCB9D4 /* Validators.swift in Sources */,
+				EC50061B280AE647000DF8A7 /* ReuseIdentifiable.swift in Sources */,
+				EC50062B280B094E000DF8A7 /* Constant.swift in Sources */,
+				ECB84843280BA07000E08407 /* ScanViewController.swift in Sources */,
+				EC50062F280B15FB000DF8A7 /* LoginViewModel.swift in Sources */,
+				ECD586BC280B2E0A00FCB9D4 /* QRHistoryViewModel.swift in Sources */,
+				ECD586B7280B2C5100FCB9D4 /* QRHistoryViewController.swift in Sources */,
+				EC50063C280B1C5D000DF8A7 /* QRScannedModel.swift in Sources */,
+				ECDD77032809356B00044846 /* UsersViewController.swift in Sources */,
 				ECDD76C32809228400044846 /* AppDelegate.swift in Sources */,
+				ECDD77082809362200044846 /* UserTableViewCell.swift in Sources */,
+				EC500629280B08A2000DF8A7 /* FileManager+Extension.swift in Sources */,
+				EC500638280B1ACA000DF8A7 /* TextFieldTableViewCell.swift in Sources */,
 				ECDD76C52809228400044846 /* SceneDelegate.swift in Sources */,
+				ECD586BA280B2CEB00FCB9D4 /* QRHistoryTableViewCell.swift in Sources */,
+				EC500626280AF4C1000DF8A7 /* HomeViewController.swift in Sources */,
+				ECB84847280BBF4B00E08407 /* FontExtension.swift in Sources */,
+				EC50063A280B1B79000DF8A7 /* RequiredDefaultTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +509,6 @@
 			targetProxy = ECDD76E02809228900044846 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		ECDD76C82809228400044846 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECDD76C92809228400044846 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ECDD76CD2809228800044846 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECDD76CE2809228800044846 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ECDD76E72809228900044846 /* Debug */ = {
@@ -437,23 +632,26 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQLGRC56DV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = QRScan/Info.plist;
+				INFOPLIST_FILE = QRScan/Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QRScan requires access to your phone’s camera.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "QRScan requires access to your Face ID";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = np.com.prashantghimire.QRScan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashantghimire.QRScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,23 +662,26 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQLGRC56DV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = QRScan/Info.plist;
+				INFOPLIST_FILE = QRScan/Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QRScan requires access to your phone’s camera.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "QRScan requires access to your Face ID";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = np.com.prashantghimire.QRScan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashantghimire.QRScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

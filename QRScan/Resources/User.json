@@ -1,0 +1,23 @@
+/* 
+  userInfo.json
+  QRScan
+
+  Created by Prashant Ghimire on 4/15/22.
+  
+*/
+[
+  {
+    "id": 1,
+    "fullname":"",
+    "username":"Nchl012",
+    "password":"12345678",
+    "lastLoginDt":null
+  },
+  {
+    "id": 2,
+    "fullname":"Nchl045",
+    "username":"12345678",
+    "password":"Nchl012",
+    "lastLoginDt":null
+  }
+]
