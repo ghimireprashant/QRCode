@@ -37,5 +37,52 @@ extension UITableView {
       let newSize = footer.systemLayoutSizeFitting(CGSize(width: self.bounds.width, height: 0))
       footer.frame.size.height = newSize.height
     }
+  }
+  func setEmptyMessage(_ message: String) {
+    let messageLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.height))
+    messageLabel.text = message
+    messageLabel.textColor = .black
+    messageLabel.numberOfLines = 0
+    messageLabel.textAlignment = .center
+    messageLabel.font = UIFont(name: "TrebuchetMS", size: 15)
+    messageLabel.sizeToFit()
+    
+    self.backgroundView = messageLabel
+    self.separatorStyle = .none
+  }
+  
+  func restore() {
+    self.backgroundView = nil
+    self.separatorStyle = .singleLine
+  }
+}
+extension UIView {
+  @IBInspectable var cornerRadius: CGFloat {
+    
+    get{
+      return layer.cornerRadius
     }
+    set {
+      layer.cornerRadius = newValue
+      layer.masksToBounds = newValue > 0
+    }
+  }
+  
+  @IBInspectable var borderWidth: CGFloat {
+    get {
+      return layer.borderWidth
+    }
+    set {
+      layer.borderWidth = newValue
+    }
+  }
+  
+  @IBInspectable var borderColor: UIColor? {
+    get {
+      return UIColor(cgColor: layer.borderColor!)
+    }
+    set {
+      layer.borderColor = borderColor?.cgColor
+    }
+  }
 }
